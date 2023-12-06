@@ -18,7 +18,7 @@ def get_teams_playing_from_fixtures():
         # Authenticate with Google Sheets
         scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
         credentials = ServiceAccountCredentials.from_json_keyfile_name(
-            r'C:\Users\jwils\Desktop\LMS\lmscred.json', scope
+            r'lmscred.json', scope
         )
         gc = gspread.authorize(credentials)
 
@@ -201,7 +201,7 @@ def scrape_and_update_sheet_with_winners():
     # Authenticate with Google Sheets
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
     credentials = ServiceAccountCredentials.from_json_keyfile_name(
-        r'C:\Users\jwils\Desktop\LMS\lmscred.json', scope
+        r'lmscred.json', scope
     )
     gc = gspread.authorize(credentials)
 
@@ -332,7 +332,7 @@ def scrape_and_update_fixture():
         # Authenticate with Google Sheets
         scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
         credentials = ServiceAccountCredentials.from_json_keyfile_name(
-                r'C:\Users\jwils\Desktop\LMS\lmscred.json', scope
+                r'lmscred.json', scope
     )
         gc = gspread.authorize(credentials)
 
@@ -440,7 +440,7 @@ def copy_winning_teams_to_sheet4():
         # Authenticate with Google Sheets
         scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
         credentials = ServiceAccountCredentials.from_json_keyfile_name(
-                r'C:\Users\jwils\Desktop\LMS\lmscred.json', scope
+                r'lmscred.json', scope
     )
         gc = gspread.authorize(credentials)
 
@@ -492,7 +492,7 @@ def index():
         # Authenticate with Google Sheets
         scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
         credentials = ServiceAccountCredentials.from_json_keyfile_name(
-                r'C:\Users\jwils\Desktop\LMS\lmscred.json', scope
+                r'lmscred.json', scope
     )
         gc = gspread.authorize(credentials)
 
@@ -534,7 +534,7 @@ def submit():
         # Define the scope here
         scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 
-        creds = ServiceAccountCredentials.from_json_keyfile_name(r'C:\Users\jwils\Desktop\LMS\lmscred.json', scope)
+        creds = ServiceAccountCredentials.from_json_keyfile_name(r'lmscred.json', scope)
         client = gspread.authorize(creds)
 
         sheet1 = client.open('Last Man Standing').worksheet('Sheet1')
