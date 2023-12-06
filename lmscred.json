@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "last-man-standing7195",
+  "private_key_id": "8473692351787486c55fe4191c97a75df6ea9d42",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC48kXgXyJLgbUC\nr6ng1dX0MdvP+xZ3aFXPaMAlqBi4i+Zef27RNB0Y3ijhlzAP6G+Q13bpk2B+2a09\nl1XHNzwQgoNPeg93ef3CLvn6kAh+dJWMzOq7uY1hDBUxZuYJHfnJ/mIfbonm2M71\nmxgdrDnJ5SJIV9b/wiZJ/ByRfzgSUTIbKTIbpAz+VOTiQgrA7QX9gv9oHIEY/g/8\ndElbQ/7SUXM8URHB6xGvSrwVcLobeZRa0ufQJayCw8+Q7P1T+FDadJI0+bQm4egO\n5/qqRGLZtI/GQDZV8EZc21ZpeIl1aLLKE6A5pykFNtAYmfYlOcwcmjcKG396R7Hg\nTKd5ObqFAgMBAAECggEALKI5h2XmMKtHrDOJL6vjk+iReC7MU/pv1RueXagk+Sq4\nKL+f1qi5SfZZjuHuFTS+8glx1vp8i/iMFORoLOkRW5mnx385atfbzCiKpzPp/Ny1\nd9K/Zpkn+88O8Up4QySDE0LLWvMSIE5cGg15QzX8h1M/VA6w4i3wkCPiICH//flF\nrNsYXyeT82ITheAvnMzLq5tgvjyHX06UI6ToeailVIS0s/YPGw4/cqbQ/v+RNE0K\nx4Wzpln+RxupmHSIarNot5fTEaxf7TH8YWNFgb/Pwv2MGGH19EYimD1/FVuH/mhW\nCJ6BqSfNWBES6T70AFp+1nV4fEZROC4E+bc+WvAe6QKBgQDqAi73bPLFxflNpBOP\naStII/EB1l3kjBCYBbPPBTuGhPpxVri4HzqY3xVvcE0zzivq6roJcofGsJkXg1Yw\n6ReQJJ50Qcrt2Q+OyOsiUyFIEnq99kMGp7XyrPMHrIAbv2BSekJs9impWjNsnd7Q\niz4PztS4s+fCanxU+pkrQ+EULQKBgQDKU754p3M7YXxVElztab2lpT2TULJ7hIxU\nc9XrDrpvFOMQeDPfAmckR7VW6PC/CBWhC2F60U2W4XnDczjhyYP9Hrp07MD3zJ6I\nTbOrn1uBD16Tit3EnonJGPbqBRKYb0htw1Kz+aelkcO74azrZnKRuThzWsxMdelL\n0T4exLR+uQKBgQDiNdQjGO2io9t444iJFLhjV2MuTISdX4zW+IQ2Nq+xPTFAiP2t\n93pUtypofJ4U21P3FotagJ2iQ6rqYOrcAyflDpEif0tlG3R/qdgraUL+AecnZTyr\n3Un02p1gqK96o0jA0jEOVfQ2It0dPYtb+462B1H5bug2N2wTVeDlQwv8zQKBgQCp\nt4Got93jS6z9t3+X7wEUN/3k2uY80jzcgqZInHwqvbySjiIEyYE3X6dvlcqMk/2A\nr4k/et64175KAxcN3voGk4YYmphrxIqfD37NUclyAzB0VyIb0lkGBRjpyQOGNqLs\n39E6AwtryVAFBBMHC1LDhjkiGmIRKT9fR8/yA1LckQKBgQCdbGH50WAecMuJgZKT\n4A2LCBLR1z1ONX80jIUU3Q5JiKWgNrxPtv8ah0WVcADtFIYeMkQUJbKudEhaB6Va\n51n4KnLlKzK7hcADQP+TY2TVM44FYOLuwfZPviy6t7+JQ6+gi0mKpzJWZTjojvnc\nGtCYPUbYtGPng1TqREnWcfxkJQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "last-man-standing@last-man-standing7195.iam.gserviceaccount.com",
+  "client_id": "100433572140681002154",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/last-man-standing%40last-man-standing7195.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
