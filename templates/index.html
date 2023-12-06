@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last Man Standing</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+            overflow: hidden; /* Hide overflow */
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/000/234/128/original/soccer-field-background-vector.jpg'); /* Updated background image */
+            background-size: cover; /* Cover the entire screen */
+            background-position: center;
+            background-repeat: no-repeat; /* No repeating */
+            z-index: -1;
+        }
+
+        #content {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            background-color: white; /* White background */
+            padding: 20px; /* Added padding */
+            border-radius: 10px; /* Added border radius */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Added box shadow */
+        }
+
+        h1 {
+            font-size: 2.5em; /* Increased font size for Last Man Standing */
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+        }
+
+        label {
+            font-size: 1.5em; /* Decreased font size for Name and Team */
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+        }
+
+        .selects {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .submit-message {
+            font-size: 2.5em; /* Increased font size */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            color: white; /* Adjusted color */
+        }
+
+        .select-container,
+        .submit-container {
+            margin-top: 20px;
+        }
+
+        .submit-button {
+            font-size: 1.5em; /* Increased font size */
+            width: 150px; /* Increased button width */
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+
+    <script>
+        function confirmSubmission() {
+            var name = document.getElementById("choices").value;
+            var team = document.getElementById("teamSelect").value;
+
+            if (confirm(`Are you sure your name is ${name} and your pick is ${team}?`)) {
+                // Submit the form
+                document.getElementById("submitForm").submit();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Last Man Standing</h1>
+        <div class="selects">
+            <form id="submitForm" action="/submit" method="post">
+                <div class="select-container">
+                    <label for="name">Name</label>
+                    <select id="choices" name="name">
+                        <option value="select" selected>Select</option>
+                        {% for name in names %}
+                            <option value="{{ name }}">{{ name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="select-container">
+                    <label for="teamSelect">Team</label>
+                    <select id="teamSelect" name="team">
+                        <option value="select" selected>Select</option>
+                        {% for team in teams %}
+                            {% if team %} <!-- Check if team is truthy -->
+                                <option value="{{ team }}">{{ team }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="submit-container">
+                    <input class="submit-button" type="button" value="Submit" onclick="confirmSubmission()">
+                </div>
+            </form>
+        </div>
+        <div class="submit-message" id="submitMessage">
+            Form submitted successfully!
+        </div>
+    </div>
+</body>
+
+</html>

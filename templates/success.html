@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form submitted successfully!</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+            overflow: hidden; /* Hide overflow */
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/000/234/128/original/soccer-field-background-vector.jpg'); /* Updated background image */
+            background-size: cover; /* Cover the entire screen */
+            background-position: center;
+            background-repeat: no-repeat; /* No repeating */
+            z-index: -1;
+        }
+
+        #content {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            background-color: white; /* White background */
+            padding: 20px; /* Added padding */
+            border-radius: 10px; /* Added border radius */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Added box shadow */
+        }
+
+        h1 {
+            font-size: 2.5em; /* Increased font size for Last Man Standing */
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+        }
+
+        .selects {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .submit-message {
+            font-size: 2.5em; /* Increased font size */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white; /* Adjusted color */
+        }
+
+        .back-to-home {
+            margin-top: 20px;
+            font-size: 1.5em; /* Adjusted font size */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Form submitted successfully!</h1>
+        <div class="selects">
+            <!-- Display submission message here if needed -->
+            <div class="submit-message" id="submitMessage">
+            </div>
+            <div class="back-to-home">
+                <a href="/">Back to Home</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
