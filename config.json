@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "last-man-standing7195",
+  "private_key_id": "62a9acce46c0d7b5f599aa6e1ed870ba18f94685",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDMHaDgPMiWnfYb\nRq13umfOoghBGYcB+GL9xr7/OzygKFBTLyXDWMwCAmHgHE0k3bLXdQLkzXfONbDZ\nCON10ysfdARQ1TseO25hAp8gsVlnZHSIgNSRUITsV+nKyGe/FgrSWkNhydJW2lQe\nvAHi2iyvjAB9cWbeXTWNU+ArdGUQRU1BR8N8yosqz0NpAZNlctKhrwM2wiwOlDN5\n0dVlR31bmeryJLHwDP7yu1YJMDU4K320IY34dUTD1jlnYIBRBFH1ZuJehEoCm9VS\nDZv60PLpvZPA1suUtHddLwxLdNQAQbe/o7yDmlXG/aCYFV8mGMX4FmzQT5W//D6W\ngCqZptiZAgMBAAECggEAAKufPeVNNltt9cB5bOF+mknjc41JKXs+nf1DXtS7uf3v\n55oJyna18tK9rg4BvduBjR4cBJLdMB7yhf/2uUoYg+muYvKUV2DUF7r5uVKDy+hj\nTph3ukN0sE8InEsktha1MeQsgPt39qOQb6pn6i4Tw/7WeJMBBr1xIdXy8EmZVGCY\nZCEoe83VJCDL9RPBnvzjzGPE248zMJEJYIiDUGb0KjiQV9f6lJdeRLyaXbfOkskj\n1Cv7EEVk0+NeoQkPrbfWMaiTIqUHXwyNv3uToerMxiRap1f/h48a30p+FwclU9Ei\n3f3g7GcM1OQalnvOpAWLkUDkdSAWmmCC0gWoxpvB9QKBgQDpK8iURMFrsCFk2ZTl\nUKfkZLJbCtbiS1eytwztF299bcWKxnchXv19ES4mVgOcc1BsoEYqOBLGm38s4sGk\nGlWkZ9+rK+5ObjiUZ7HrSwRnKdS0GxL9cXiSc92pGfT4XjYl6qyVePuxUp15rvdy\nIKBnfbt3ZVN4WYFCi9fgjCMtBQKBgQDgGZnPOgnIaJ22RgcOIBQHxfmvzxWCiGS1\nmip6ZLeC19o++tSa48dsWTsAVxgIKDUFaIZe/ft/50mmDXZ3Yl8ZMQlkuazbrENi\nLEa9eqhXfSfaW4ynHp0z08YU+LoCVHxV6qzr1gYhszBOpgukFQHtI0kqUkCGsing\nWcVe2ECxhQKBgQCDu6rMqbOlRZL4ST0n+VOBY6qoaQ1SOELJw0VYRd9FO9lZOBti\nDSqlmCk8m2fa4gNT+5DolVl2P6+wCkRglEhCZDUnneA7C2aH4bXRO0a3ihiT0J//\n9DWseC2JNhMCpydscJMkt39rhUNW1hUSs4AsOArLv8FSwy6WDC/guwu8iQKBgQCV\nZTu+hGiFLAkHvINzjTsNO5QK+jjSvm61CkOLOJ2GIrQiDEGzyGnn90x4G5evyG4g\nXuBFb3g8ekoE4zC4weG3/5LNjWKJR7vcNLwsERssyAjLbwDDYItYQ7PnwzDt4LjK\n5hnFVvbbfIOVyugzyLVyC3X5OsA9i4STRgVoBy6JqQKBgQCxFUaFpGtGlpVuggc6\n1w5G5XILDhC7vZ/I0s8LptfVhLpvR7o/n9iGEqqJg5dRMEDV0gLjgDzYIjLP8+BJ\nPHBzERB0ZGuDP/3kLddTEatC5cTZuGXb3RrsGHLunFWKVHjE3bmsEzR9PY775ZBz\nLGuELMH/8RqSUA9X1352c3S/aw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "lmsapp@last-man-standing7195.iam.gserviceaccount.com",
+  "client_id": "106294486749974634022",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lmsapp%40last-man-standing7195.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
