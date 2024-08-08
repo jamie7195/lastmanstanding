@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, send_from_directory, jsonify
 import json
 import os
 from datetime import datetime, timedelta
@@ -53,7 +53,7 @@ def get_upcoming_weekend():
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return send_from_directory('.', 'index.html')
 
 @app.route('/api/teams')
 def get_teams():
