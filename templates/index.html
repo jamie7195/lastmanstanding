@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams and Names</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Fetch teams and populate dropdown
+            fetch('/api/teams')
+                .then(response => response.json())
+                .then(data => {
+                    const teamsDropdown = document.getElementById('teams');
+                    data.forEach(team => {
+                        const option = document.createElement('option');
+                        option.value = team;
+                        option.textContent = team;
+                        teamsDropdown.appendChild(option);
+                    });
+                });
+
+            // Fetch names and populate dropdown
+            fetch('/api/names')
+                .then(response => response.json())
+                .then(data => {
+                    const namesDropdown = document.getElementById('names');
+                    data.forEach(name => {
+                        const option = document.createElement('option');
+                        option.value = name;
+                        option.textContent = name;
+                        namesDropdown.appendChild(option);
+                    });
+                });
+        });
+    </script>
+</head>
+<body>
+    <h1>Select a Team and a Name</h1>
+    
+    <!-- Dropdown for Teams -->
+    <label for="teams">Choose a team:</label>
+    <select id="teams">
+        <option value="">Select a team</option>
+    </select>
+    
+    <!-- Dropdown for Names -->
+    <label for="names">Choose a name:</label>
+    <select id="names">
+        <option value="">Select a name</option>
+    </select>
+</body>
+</html>
